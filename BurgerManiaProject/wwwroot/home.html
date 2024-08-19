@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Menu</title>
+    <link rel="stylesheet" href="../styles/homeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="./scripts/homeScript.js"></script>
+    <script src="./scripts/viewCart.js"></script>
+    <link rel="stylesheet" href="./styles/table.css" />
+    <link rel="stylesheet" href="./styles/homeStyle.css" />
+
+    <style>
+        
+        .burger-menu:hover{
+            transform:scale(1.07);
+            opacity:0.93;
+        }
+        
+
+        #view {
+            position: relative;
+            margin-left: 90px;
+            background-color: black;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 40px;
+        }
+        #placeOrder {
+            background-color: black;
+            color: #fff;
+        }
+        h2 {
+            position: relative;
+            margin-left: 550px;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="home">
+        <nav id="navbar">
+            <h2>Burger Mania 🍔</h2>
+
+        </nav>
+        <div class="burger-container">
+
+            <div class="burger-menu">
+
+                <img src="./images/veg1.jpg" alt="Burger Image" class="burger-image">
+                <div class="burger-details">
+                    <div class="burger-name">Cheesy Surprise</div>
+                    <div class="quantity">
+                        <label for="quantity1">Quantity:</label>
+                        <input type="number" id="quantity1" name="cheesysurprise-quantity" min="1" max="5" value="1">
+                    </div>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="cheesysurprise-option" value="veg">
+                            <span class="option-box">Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesysurprise-option" value="non-veg">
+                            <span class="option-box">Non-Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesysurprise-option" value="egg">
+                            <span class="option-box">Egg</span>
+                        </label>
+                    </div>
+                    <button class="add-to-cart" onclick="addToCart('Cheesy Surprise')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="burger-menu">
+                <img src="./images/veg2.jpg" alt="Burger Image" class="burger-image">
+                <div class="burger-details">
+                    <div class="burger-name">Cheesy Delicious</div>
+                    <div class="quantity">
+                        <label for="quantity2">Quantity:</label>
+                        <input type="number" id="quantity2" name="cheesydelicious-quantity" min="1" max="5" value="1">
+                    </div>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="cheesydelicious-option" value="veg">
+                            <span class="option-box">Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesydelicious-option" value="non-veg">
+                            <span class="option-box">Non-Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesydelicious-option" value="egg">
+                            <span class="option-box">Egg</span>
+                        </label>
+                    </div>
+                    <button class="add-to-cart" onclick="addToCart('Cheesy Delicious')">Add to Cart</button>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <img src="../images/veg3.jpg" alt="Burger Image" class="burger-image">
+                <div class="burger-details">
+                    <div class="burger-name">Cheesy Chilli </div>
+                    <div class="quantity">
+                        <label for="quantity3">Quantity:</label>
+                        <input type="number" id="quantity3" name="cheesychilli-quantity" min="1" max="5" value="1">
+                    </div>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="cheesychilli-option" value="veg">
+                            <span class="option-box">Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesychilli-option" value="non-veg">
+                            <span class="option-box">Non-Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesychilli-option" value="egg">
+                            <span class="option-box">Egg</span>
+                        </label>
+                    </div>
+                    <button class="add-to-cart" onclick="addToCart('Cheesy Chilli')">Add to Cart</button>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <img src="../images/nv4.jpg" alt="Burger Image" class="burger-image">
+                <div class="burger-details">
+                    <div class="burger-name">Cheesy Burger </div>
+                    <div class="quantity">
+                        <label for="quantity4">Quantity:</label>
+                        <input type="number" id="quantity4" name="cheesyburger-quantity" min="1" max="5" value="1">
+                    </div>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="cheesyburger-option" value="veg">
+                            <span class="option-box">Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesyburger-option" value="non-veg">
+                            <span class="option-box">Non-Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesyburger-option" value="egg">
+                            <span class="option-box">Egg</span>
+                        </label>
+                    </div>
+                    <button class="add-to-cart" onclick="addToCart('Cheesy Burger')">Add to Cart</button>
+                </div>
+            </div>
+            <div class="burger-menu">
+                <img src="../images/nv1.jpg" alt="Burger Image" class="burger-image">
+                <div class="burger-details">
+                    <div class="burger-name">Cheesy Bonanza</div>
+                    <div class="quantity">
+                        <label for="quantity5">Quantity:</label>
+                        <input type="number" id="quantity5" name="cheesybonanza-quantity" min="1" max="5" value="1">
+                    </div>
+                    <div class="options">
+                        <label>
+                            <input type="radio" name="cheesybonanza-option" value="veg">
+                            <span class="option-box">Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesybonanza-option" value="non-veg">
+                            <span class="option-box">Non-Veg</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="cheesybonanza-option" value="egg">
+                            <span class="option-box">Egg</span>
+                        </label>
+                    </div>
+                    <button class="add-to-cart" onclick="addToCart('Cheesy Bonanza')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<div id="cart-container">-->
+        <button onclick="onviewcart()" id="view">View cart</button>
+        <div id="cart-content">
+            <table id="cart-list">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-list-body"></tbody>
+            </table>
+        </div>
+    <!--</div>-->
+
+    <script>
+        document.addEventListener('load', () => {
+            const foodTypeSelect = document.getElementById('options');
+            const content = document.body;
+
+            foodTypeSelect.addEventListener('change', function () {
+                const selectedOption = this.value;
+
+                if (selectedOption === 'veg') {
+                    content.classList.remove('non-veg-bg', 'egg-bg');
+                    content.classList.add('veg-bg');
+                } else if (selectedOption === 'non-veg') {
+                    content.classList.remove('veg-bg', 'egg-bg');
+                    content.classList.add('non-veg-bg');
+                } else if (selectedOption === 'egg') {
+                    content.classList.remove('veg-bg', 'non-veg-bg');
+                    content.classList.add('egg-bg');
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\home.html",
+      "PackagePath": "staticwebassets\\home.html"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\burgerBack.png",
+      "PackagePath": "staticwebassets\\images\\burgerBack.png"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv1.jpg",
+      "PackagePath": "staticwebassets\\images\\nv1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv2.jpg",
+      "PackagePath": "staticwebassets\\images\\nv2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv3.jpg",
+      "PackagePath": "staticwebassets\\images\\nv3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv4.jpg",
+      "PackagePath": "staticwebassets\\images\\nv4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv5.jpg",
+      "PackagePath": "staticwebassets\\images\\nv5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\nv6.jpg",
+      "PackagePath": "staticwebassets\\images\\nv6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\veg1.jpg",
+      "PackagePath": "staticwebassets\\images\\veg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\veg2.jpg",
+      "PackagePath": "staticwebassets\\images\\veg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\veg3.jpg",
+      "PackagePath": "staticwebassets\\images\\veg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\veg4.jpg",
+      "PackagePath": "staticwebassets\\images\\veg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\images\\veg5.jpg",
+      "PackagePath": "staticwebassets\\images\\veg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\scripts\\homeScript.js",
+      "PackagePath": "staticwebassets\\scripts\\homeScript.js"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\scripts\\indexScript.js",
+      "PackagePath": "staticwebassets\\scripts\\indexScript.js"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\scripts\\viewCart.js",
+      "PackagePath": "staticwebassets\\scripts\\viewCart.js"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\styles\\homeStyle.css",
+      "PackagePath": "staticwebassets\\styles\\homeStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\vc110403\\source\\repos\\BurgerManiaProject\\BurgerManiaProject\\wwwroot\\styles\\table.css",
+      "PackagePath": "staticwebassets\\styles\\table.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BurgerManiaProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BurgerManiaProject.props",
+      "PackagePath": "build\\BurgerManiaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BurgerManiaProject.props",
+      "PackagePath": "buildMultiTargeting\\BurgerManiaProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BurgerManiaProject.props",
+      "PackagePath": "buildTransitive\\BurgerManiaProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
